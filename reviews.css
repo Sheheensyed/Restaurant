@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-item a{
+    list-style: none;
+    color: white; 
+    transition: border-radius 0.5s;
+}
+.nav-item a:hover{
+    background-color: rgba(255, 255, 255, 0.095);
+    color: white;
+    border-radius: 20px;
+}
+
+.navItm{
+    margin-top: -70px;
+    margin-right: -75px;
+}
+
+
+.review-box{
+    color: white;
+}
+
+
+
+
+.footer {
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.footer .logo {
+    width: 150px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: #e3e3e3;
+}
+
+#footPara{
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+    margin-left: 520px;
+}

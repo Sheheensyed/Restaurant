@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+
+    <link rel="stylesheet" href="reviews.css">
+    <link rel="icon" href="./images/Logo.webp">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fav icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+      <!-- Navbar -->
+      <div class="main">
+        <div class="full " id="navbar">
+          <div class="container ms-5 px-6 py-6">  
+              <a href="">
+                <img width="200" height="100" src="./images/Logo.webp" alt="">
+              </a>
+              <div class="navItm">
+                <ul class="nav justify-content-end ">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="reviews.html">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section py-5">
+        <div class="container">
+            <h2 class="text-center text-light">Customer Reviews</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="review-box">
+                        <h4>John Doe</h4>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <p>Great food and excellent service!</p>
+                    </div>
+                    <div class="review-box">
+                        <h4>Jane Smith</h4>
+                        <p>⭐⭐⭐⭐</p>
+                        <p>Delicious dishes, but a bit pricey.</p>
+                    </div>
+                    <div class="review-box">
+                        <h4>Jane Smith</h4>
+                        <p>⭐⭐⭐⭐</p>
+                        <p>Delicious dishes, but a bit pricey.</p>
+                    </div>
+                    <!-- Add more reviews -->
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto text-light">
+                    <h3>Submit Your Review</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating</label>
+                            <select class="form-control" id="rating">
+                                <option>⭐⭐⭐⭐⭐</option>
+                                <option>⭐⭐⭐⭐</option>
+                                <option>⭐⭐⭐</option>
+                                <option>⭐⭐</option>
+                                <option>⭐</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review</label>
+                            <textarea class="form-control" id="review" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning text-light">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Footer -->
+     <footer class="footer">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="./images/Logo.webp" alt="Logo" class="logo ms-0">
+                <div class="" id="footPara">
+                    <p class="mb-0">Follow us for a</p>
+                    <p class="mb-0">Foodgasmic Experience</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+            </div>
+        </div>
+        </footer>
+    </div>
+
+</body>
+</html>
+    
